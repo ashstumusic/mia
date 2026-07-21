@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mia-baker-v16';
+const CACHE_NAME = 'mia-baker-v17';
 const PRECACHE = [
     '/',
     '/index.html',
