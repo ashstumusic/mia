@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mia-baker-v14';
+const CACHE_NAME = 'mia-baker-v15';
 const PRECACHE = [
     '/',
     '/index.html',
@@ -6,12 +6,12 @@ const PRECACHE = [
     '/favicon.png',
     '/favicon-32.png',
     '/favicon-180.png',
-    '/img/site/hero-3840.webp',
+    '/Images/hero-full.webp',
+    '/Images/about-2.webp',
+    '/Images/studio-full.webp',
     '/img/site/terrarium-i-527.webp',
     '/img/site/terrarium-ii-540.webp',
-    '/img/site/terrarium-iii-532.webp',
-    '/img/site/about-1-1920.webp',
-    '/img/site/about-2-3840.webp'
+    '/img/site/terrarium-iii-532.webp'
 ];
 
 self.addEventListener('install', (e) => {
