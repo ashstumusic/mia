@@ -1,0 +1,26 @@
+{
+  "name": "Mia Baker Art — Oil Painting Portfolio",
+  "short_name": "Mia Baker Art",
+  "description": "BFA Studio Art graduate from Oklahoma State University. Large-format oil paintings exploring human disruption of the natural environment.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#C44A00",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

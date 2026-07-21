@@ -14,7 +14,7 @@
     --surface: #FFFFFF;
     --text: #1A1A1A;
     --text-muted: #4A4A4A;
-    --accent: #FE5C00;
+    --accent: #C44A00;
     --border: rgba(0,0,0,0.06);
     --border-hover: rgba(0,0,0,0.12);
     --glass: rgba(255,255,255,0.75);
@@ -881,7 +881,7 @@ h2 {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--accent);
-    box-shadow: 0 0 0 4px rgba(254,92,0,0.1);
+    box-shadow: 0 0 0 4px rgba(196,74,0,0.1);
 }
 
 .form-group textarea {
