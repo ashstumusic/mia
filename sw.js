@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mia-baker-v15';
+const CACHE_NAME = 'mia-baker-v16';
 const PRECACHE = [
     '/',
     '/index.html',
@@ -6,9 +6,9 @@ const PRECACHE = [
     '/favicon.png',
     '/favicon-32.png',
     '/favicon-180.png',
-    '/Images/hero-full.webp',
-    '/Images/about-2.webp',
-    '/Images/studio-full.webp',
+    '/Images/hero-1920.webp',
+    '/Images/about-1920.webp',
+    '/Images/studio-1080.webp',
     '/img/site/terrarium-i-527.webp',
     '/img/site/terrarium-ii-540.webp',
     '/img/site/terrarium-iii-532.webp'
