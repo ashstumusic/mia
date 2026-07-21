@@ -84,8 +84,8 @@ body {
 }
 
 *:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
 }
 
 img { max-width: 100%; display: block; }
@@ -143,6 +143,12 @@ nav.on-hero .nav-name {
     transition: opacity 0.5s var(--ease);
 }
 
+.nav-name:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
 .nav-name:hover { opacity: 0.5; }
 
 .nav-links {
@@ -163,6 +169,12 @@ nav.on-hero .nav-name {
 }
 
 .nav-links a:hover { opacity: 1; }
+
+.nav-links a:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
+    opacity: 1;
+}
 
 .nav-links a.active {
     font-weight: 600;
@@ -198,6 +210,12 @@ nav.on-hero .nav-name {
     z-index: 110;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.menu-toggle:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: 4px;
 }
 
 .menu-toggle span {
@@ -430,7 +448,7 @@ h2 {
 .gallery-item.fade-in:nth-child(3) { transition-delay: 300ms; }
 
 .gallery-item:focus-visible {
-    outline: 2px solid var(--accent);
+    outline: 3px solid var(--accent);
     outline-offset: 4px;
 }
 
@@ -608,8 +626,8 @@ h2 {
 .lightbox-close:focus-visible,
 .lightbox-prev:focus-visible,
 .lightbox-next:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
 }
 
 .lightbox-close {
@@ -779,8 +797,8 @@ h2 {
 }
 
 .cv-download:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
 }
 
 .cv-content h2 {
@@ -913,8 +931,8 @@ h2 {
 }
 
 .form-submit:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
 }
 
 .form-status {
@@ -1012,7 +1030,7 @@ h2 {
 }
 
 .ig-card:focus-visible {
-    outline: 2px solid var(--accent);
+    outline: 3px solid var(--accent);
     outline-offset: -2px;
 }
 
@@ -1033,6 +1051,11 @@ h2 {
     border-radius: 980px;
     padding: 0.7rem 2rem;
     transition: background 0.2s var(--ease), transform 0.3s var(--spring);
+}
+
+.ig-follow-link:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
 }
 
 .ig-follow-link:hover {
