@@ -692,7 +692,7 @@ h2 {
 }
 
 .about-images .about-img-wrap { aspect-ratio: 4 / 5; }
-.about-images .about-img-wrap img { transform: scale(1.8); transform-origin: 40% 55%; }
+.about-images .about-img-wrap img { transform: scale(1.5); transform-origin: 40% 55%; }
 
 .about-text .about-img-wrap { aspect-ratio: 3 / 2; margin-top: 1.5rem; }
 .about-text .about-img-wrap img { transform: scale(1.75); transform-origin: 35% 90%; }
